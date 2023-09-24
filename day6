@@ -1,0 +1,24 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+void pointer(int* x,int* y){
+    int sum=*x+*y;
+    cout<<sum<<endl;
+    if (*x>*y)
+    cout<<*x-*y<<endl;
+    else
+    cout<<*y-*x<<endl;
+    
+}
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    int x,y;
+    cin>>x>>y ;
+    int* a=&x;
+    int* b=&y;
+    pointer(a,b);
+    return 0;
+}
