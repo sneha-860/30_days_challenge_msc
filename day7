@@ -1,0 +1,29 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    string a,b;
+    cin>>a>>b;
+    cout<<a.size()<<" " ;
+    cout<<b.size()<<endl;
+    cout<<a+b<<endl;
+    char x=a[0];
+    char y=b[0];
+    cout<<y;
+    for (int i=1;i<a.size();i++){
+    cout<<a[i];}
+    cout<<" ";
+    cout<<x;
+    for (int i=1;i<b.size();i++){
+    cout<<b[i];}
+    
+        
+      
+    return 0;
+}
