@@ -1,0 +1,25 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+struct student{
+    int age;
+    string fname;
+    string sname;
+    int standard;
+    
+};
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    struct student ram;
+    cin>>ram.age;
+    cin>>ram.fname;
+    cin>>ram.sname;
+    cin>>ram.standard;
+    cout<<ram.age<<" "<<ram.fname<<" "<<ram.sname<<" "<<ram.standard;
+       
+    return 0;
+}
