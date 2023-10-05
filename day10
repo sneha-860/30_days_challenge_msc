@@ -1,0 +1,39 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+class student{
+    int age;
+    string fname;
+    string lname;
+    int standard;
+    public:
+    void getdata(){
+        cin>>age;
+        cin>>fname;
+        cin>>lname;
+        cin>>standard;
+        
+    }
+    void putdata(){
+        cout<<age<<endl;
+        cout<<lname<<", "<<fname<<endl;
+        cout<<standard<<endl;
+        
+    }
+    void sdata(){
+        cout<<endl;
+        cout<<age<<","<<fname<<","<<lname<<","<<standard<<endl;
+    }
+};
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    student ram;
+    ram.getdata();
+    ram.putdata(); 
+    ram.sdata();
+    return 0;
+}
