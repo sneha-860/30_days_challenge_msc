@@ -1,0 +1,35 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+class rectangle{
+    protected:
+    int width,height;
+    public:
+    void getdata(){
+        cin>>width>>height;
+        
+    }
+    void putdata(){
+        cout<<width<<" "<<height;
+        cout<<endl;
+        
+    }
+};
+class rectanglearea: public rectangle{
+    public:
+    void putdata(){
+    cout<<width * height;}
+    
+};
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    rectanglearea x;
+    x.getdata();
+    x.rectangle::putdata();
+    x.putdata();
+    return 0;
+}
