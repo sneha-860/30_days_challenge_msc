@@ -1,0 +1,17 @@
+int main(){
+    int row,x;
+    cout<<"enter the no of rows want"<<endl;
+    cin>>row;
+    x=row;
+    for(int i=1;i<=row;i++){
+        for (int p=x-i;p>0;p--){
+            cout<<" ";
+        }
+        for   ( int j=0;j<i;j++){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
