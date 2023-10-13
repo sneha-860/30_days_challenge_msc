@@ -1,0 +1,21 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+    int row,x;
+    cout<<"enter the no of rows want"<<endl;
+    cin>>row;
+    x=row;
+    for(int i=1;i<=row;i++){
+        //for (int p=x-i;p>0;p--){
+        //    cout<<" ";
+       //7 }
+        for   ( int j=row-i+1;j>0;j--){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
