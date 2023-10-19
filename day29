@@ -1,0 +1,21 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+    int num,a,check,cube=0;
+    cout<<"enter the number to check whether the number is armstrong or not";
+    cin>>num;
+    for (a=num;a>0;a=a/10)
+    {
+       check=a%10;
+       cube=cube+(check*check*check);
+
+    }
+    if(num==cube)
+    cout<<"the number is armstrong";
+    else
+    cout<<"the number is not armstrong";
+
+    return 0;
+}
