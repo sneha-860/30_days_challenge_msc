@@ -1,4 +1,4 @@
-# 🚀 30 Days Challenge (MSC)
+#  30 Days Challenge (MSC)
 
 Welcome to my **30 Days Challenge** repository!  
 This repo is a collection of my daily progress, learning, and implementations as part of a continuous coding and skill-building journey.
@@ -29,19 +29,7 @@ Each folder/file represents progress made on a specific day.
 
 ---
 
-## 📅 Challenge Structure
 
-| Day | Description |
-|-----|------------|
-| Day 1 | Introduction / Basics |
-| Day 2 | Practice / Concept |
-| Day 3 | Problem Solving |
-| ... | ... |
-| Day 30 | Final Learnings / Wrap-up |
-
-*(Structure may vary based on topics covered each day)*
-
----
 
 ## 💻 Tech Stack
 
@@ -65,12 +53,6 @@ Depending on the tasks, this repo may include:
 
 ---
 
-## 📈 Progress Tracker
-
-- ✅ Days Completed: XX/30  
-- 🔄 Currently Working On: Day XX  
-
----
 
 ## 🤝 Contribution
 
@@ -86,10 +68,3 @@ This challenge is all about showing up every day and improving step by step.
 
 ---
 
-## 📬 Connect With Me
-
-- GitHub: [@sneha-860](https://github.com/sneha-860)
-
----
-
-⭐ If you like this repo, don’t forget to star it!
