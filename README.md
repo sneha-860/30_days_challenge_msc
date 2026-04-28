@@ -1,4 +1,4 @@
-#  30 Days Challenge (MSC)
+#  30 Days Coding Challenge 
 
 Welcome to my **30 Days Challenge** repository!  
 This repo is a collection of my daily progress, learning, and implementations as part of a continuous coding and skill-building journey.
@@ -35,7 +35,7 @@ Each folder/file represents progress made on a specific day.
 
 Depending on the tasks, this repo may include:
 
-- Programming Languages: `Java`, `Python`, `JavaScript`
+- Programming Languages: `C++`
 - Tools: `Git`, `GitHub`, `VS Code`
 - Concepts:  
   - Data Structures & Algorithms  
